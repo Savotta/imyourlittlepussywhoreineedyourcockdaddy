@@ -19,8 +19,6 @@
 		STATKEY_END = 1, //i want this to be lower because i like hearing the stamout sfx but i will allow you ONE point of END
 	)
 
-	subclass_spellpoints = 21 // Unlike Rogue Mage, who gets 6 but DExpert, this one don't have DExpert but have more spell points than anyone but the CM.
-
 	subclass_skills = list(
 		/datum/skill/craft/blacksmithing = SKILL_LEVEL_EXPERT, //You shall TOIL. You can TOIL most skills quite well.
 		/datum/skill/craft/armorsmithing = SKILL_LEVEL_EXPERT,
