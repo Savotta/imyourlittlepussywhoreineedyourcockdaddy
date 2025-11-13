@@ -1,7 +1,7 @@
 // Hedge Mage, a pure mage adventurer sidegrade to Necromancer without the Necromancer free spells and forced patron. More spellpoints, otherwise mostly the same.
 /datum/advclass/wretch/wretchedtoiler
 	name = "Wretched Toiler"
-	tutorial = "The machinations of evil churn ever onward - the gears pushed by wretched toilers such as yourself. And toil you shall - until the machinations of thine masters come to fruition."
+	tutorial = "The wretched engine of evil churns ever onward - the gears pushed by wretched toilers such as yourself. And toil you shall - until the machinations of thine masters come to fruition."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_ALL_KINDS
 	outfit = /datum/outfit/job/roguetown/wretch/wretchedtoiler
@@ -14,7 +14,7 @@
 	subclass_stats = list(
 		STATKEY_STR = -1, //YOU ARE WRETCHED!!!
 		STATKEY_CON = -2, //AND YOU WILL +TOIL+!!!!!!!!!!!
-		STATKEY_INT = 4, //4 int so you can be a feintbeast with the master swordskill I'm giving yo-HAHAHAHAHA JUST KIDDING! GRIND THE POTIONS, WORMS!!!
+		STATKEY_INT = 4, //4 int so you can be a feintbeast with the master swordskill I'm giving yo-HAHAHAHAHA JUST KIDDING! GRIND EXPERT ALCHEMY, WORMS!!!
 		STATKEY_PER = 2, //i like looking into the distance
 		STATKEY_END = 1, //i want this to be lower because i like hearing the stamout sfx but i will allow you ONE point of END
 	)
