@@ -1439,9 +1439,6 @@ GLOBAL_VAR_INIT(rpg_loot_items, FALSE)
 				if(prob(10))
 					balloon_msg = "<i>Guarded...</i>"
 					filtered_balloon_alert(TRAIT_COMBAT_AWARE, balloon_msg)
-	else
-		last_peeled_limb = coveragezone
-		reset_peel()
 
 /obj/item/proc/repair_coverage()
 	body_parts_covered_dynamic = body_parts_covered
