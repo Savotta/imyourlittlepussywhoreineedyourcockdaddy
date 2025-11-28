@@ -615,7 +615,11 @@
 				prob2defend = prob2defend + 10
 			else
 				if(!(H?.check_dodge_skill()))
-					prob2defend = prob2defend + (H.get_skill_level(I.associated_skill) * 10)
+					var/obj/item/def_wep = H.get_active_held_item()
+					if(def_wep && def_wep.associated_skill)
+						prob2defend = prob2defend + (H.get_skill_level(def_wep.associated_skill) * 10)
+					else
+						prob2defend = prob2defend + (H.get_skill_level(/datum/skill/combat/unarmed) * 10)
 		else //the enemy attacked us unarmed or is nonhuman
 			if(UH)
 				if(UH.used_intent.unarmed)
